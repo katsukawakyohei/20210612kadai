@@ -1,0 +1,42 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0;
+}
+
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  line-height: 1;
+  z-index: 99;
+}
+
+#page-top a {
+  background: #5bbee5;
+  text-decoration: none;
+  color: #fff;
+  width: 40px;
+  padding: 28px 5px;
+  text-align: center;
+  display: block;
+  border-radius: 90px;
+  opacity: 0.9;
+  transition: all .3s ease;
+}
+
+#page-top a:hover {
+  text-decoration: none;
+  background: #5b94e5;
+}
+
